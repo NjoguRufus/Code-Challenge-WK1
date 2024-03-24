@@ -2,7 +2,7 @@ let marks = prompt("(between 0 and 100):");
 marks = parseFloat(marks);
 
 if (isNaN(marks) || marks < 0 || marks > 100) {
-    console.log("Invalid input. Marks should be between 0 and 100.");
+    console.log("Invalid input.Marks should be between 0 and 100.");
 } else {
     let grade;
     if (marks > 79) {
